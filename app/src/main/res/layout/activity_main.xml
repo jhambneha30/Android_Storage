@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="iiitd.nehacompany.datastrorage_a3.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SHARED PREFERENCES"
+        android:id="@+id/bioDataTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/nameEditText"
+        android:text="@string/name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:text="@string/email"
+        android:id="@+id/emailEditText"
+        android:layout_below="@+id/nameEditText"
+        android:layout_alignStart="@+id/nameEditText"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/bioEditText"
+        android:text="@string/bio"
+        android:layout_below="@+id/emailEditText"
+        android:layout_alignStart="@+id/emailEditText"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAddToPref"
+        android:id="@+id/btnAddDetails"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="36px" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnGetFromPref"
+        android:id="@+id/btnGetDetails"
+        android:textSize="36px"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/btnAddDetails"
+        android:layout_alignStart="@+id/btnAddDetails" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDelFromPref"
+        android:id="@+id/btnDelDetails"
+        android:textSize="36px"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/btnGetDetails"
+        android:layout_alignStart="@+id/btnGetDetails" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:id="@+id/btnNext"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/bioDataTextView" />
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DataStrorage_A3</string>
+    <string name="email">Email: </string>
+    <string name="bio">Something about you!</string>
+    <string name="btnAddToPref">Add to Preferences</string>
+    <string name="btnDelFromPref">Delete from Preferences</string>
+    <string name="btnGetFromPref">Get from Preferences</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="delete">Delete</string>
+    <string name="fileStorage">FILE STORAGE</string>
+    <string name="contact">Contact Number: </string>
+    <string name="saveToInternal">Save to Internal Storage</string>
+    <string name="getFromInternal">Get from Internal Storage</string>
+    <string name="saveToExternal">Save to Public External Storage</string>
+    <string name="getFromExternal">Get from Public External Storage</string>
+    <string name="saveToExternalPrivate">Save to Private External Storage</string>
+    <string name="getFromExternalPrivate">Get from Private External Storage</string>
+    <string name="SQLite">SQLITE DATABASE</string>
+    <string name="name">Name: </string>
+    <string name="favouriteBook">Favourite Book: </string>
+    <string name="favouriteNumber">Roll Number: </string>
+    <string name="get">Get</string>
+    <string name="update">Update</string>
+    <string name="save">Save</string>
+    <string name="displayData">DATA RETRIEVED</string>
+
+</resources>
